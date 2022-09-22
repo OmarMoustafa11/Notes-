@@ -1,15 +1,13 @@
-public class Notes {
-    /*
-    Polymorphism means many forms
-    when creating a polymorphism class you can have subclasses that only create
-    overrides for the super class or (parent class).
-    Casting
-    in the example on pg216 they use dog
-     Object o = al.get(index);
-     Dog d = (Dog) o; casting the object back to a dog that we know is there
-     d.roam();
-     if (o instanceof Dog) {
-     Dog d = (Dog) o; }
+Polymorphism means many forms
+when creating a polymorphism class you can have subclasses that only create
+overrides for the super class or (parent class).
+Casting
+in the example on pg216 they use dog
+Object o = al.get(index);
+Dog d = (Dog) o; casting the object back to a dog that we know is there
+d.roam();
+if (o instanceof Dog) {
+Dog d = (Dog) o; }
 
      INTERFACE
      Interace class is a 100% abstract class
@@ -41,7 +39,3 @@ public class Notes {
         Overriding process
         Memory allocation
         https://www.geeksforgeeks.org/difference-between-static-and-non-static-method-in-java/
-     */
-
-
-}
